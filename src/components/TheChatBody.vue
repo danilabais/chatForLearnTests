@@ -8,7 +8,7 @@ setTimeout(() => (messages.value = 20), 1000);
 
 <template>
   <div header class="chat__header">
-    <div class="chat__nick">Саша Серая</div>
+    <div class="chat__nick">Sasha Серая</div>
     <button class="chat__header-close" @click="emit('close')">
       <img
         class="chat__header-icon"

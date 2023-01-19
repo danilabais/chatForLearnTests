@@ -15,7 +15,7 @@ const nailed = ref(false);
     Сколько пикселей адгезия?
     <input v-model="adhesion" type="number" />
   </div>
-  <TheChat :nailed="nailed" :key="nailed" :adhesion="adhesion" />
+  <TheChat :nailed="nailed" :key="String(nailed)" :adhesion="adhesion" />
 </template>
 
 <style scoped>
