@@ -14,6 +14,7 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.191",
     "@vitejs/plugin-vue": "^4.0.0",
     "eslint-config-prettier": "^8.6.0",
     "prettier": "2.8.3",
